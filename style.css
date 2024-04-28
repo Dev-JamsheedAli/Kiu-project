@@ -1,0 +1,401 @@
+body{
+    font-family: sans-serif;
+    margin: 0 0;
+    padding: 0 0;
+}
+/* <!-- Logo section start here --> */
+#logo_sec{
+    /* background-color: white; */
+    display: flex;
+}
+.logo_details{
+    display: flex;
+}
+.logo_details h3{
+    margin-left: 10px;
+    padding-top: 10px;
+
+}
+
+.nav_side {
+    text-align: right;
+   
+}
+.nav_side ul {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 490px;
+    padding-top: 30px;
+  
+}
+.nav_side ul li {
+    margin-right: 10px;
+    
+}
+.nav_side ul a {
+    text-decoration: none;
+    color: blue;
+}
+.nav_side ul a:hover {
+    cursor: pointer;
+    color: red;
+}
+/* <!-- Logo section end here --> */
+
+/* <!-- home section start here --> */
+#home_sec{
+    background-color: rgb(219, 216, 216);
+}
+.home_logo{
+    text-align: center;
+    padding-top: 50px;
+}
+.home_logo h2{
+   color: blue;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.home_logo img{
+    border-radius: 50%;
+}
+.img_side img{
+width: 400px;
+height: 200px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.img_side{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    
+}
+/* <!-- home section end here --> */
+
+/* <!-- about section start here --> */
+#about_sec{
+    background-color: rgb(219, 216, 216);
+}
+.about_side h2{
+text-align: center;
+color: blue;
+font-family: sans-serif;
+font-weight: bolder;
+font-size: 35px;
+padding-top: 30px;
+}
+.about_side p{
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 10px;
+}
+/* <!-- about section end here --> */
+
+/* <!-- details section start here --> */
+#deatils_sec{
+    background-color:rgb(219, 216, 216) ;
+    padding-top: 10px;
+}
+.deails_bar{
+    border: 5px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.icons-side img{
+width: 70px;
+padding-top: 20px;
+margin-left: 30px;
+border-radius: 50%;
+}
+/* i {
+    width: 100px;
+    height: 50px;
+    } */
+
+/* .icons-side h2{
+    color: blue;
+    margin-left: 10px;
+} */
+/* <!-- details section end here --> */
+
+/* <!-- choose us section start here --> */
+#choose_sec{
+    background-color:rgb(219, 216, 216) ;
+}
+.choose_us{
+background-color: blue;
+color: white;
+width: 500px;
+height: 400px;
+}
+.choose_us h2{
+    text-align: center;
+    padding-top: 10px;
+}
+.choose_us p{
+margin:0 5px;
+}
+ .choose_btn{
+    color: blue;
+    margin-left: 180px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+.choose_btn:hover{
+    cursor: pointer;
+    color: red;
+   opacity: 0.7 ;
+}
+.choose_img img{
+    width: 500px;
+    height: 400px;
+}
+.choose_side{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+/* <!-- choose us section end here --> */
+
+/* <!-- courses section start here --> */
+#courses_sec{
+    background-color:rgb(219, 216, 216) ;
+}
+
+
+.courses_deatils h2{
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    padding-top: 30px;
+    /* margin-right: 5px; */
+}
+.courses_deatils img{
+    width: 400px;
+    height: 200px;
+}
+
+.courses_deatils h3{
+background-color: blue;
+color: white;
+width: 150px;
+height: 30px;
+border: none;
+border-radius: 3px;
+/* padding-left: 40px; */
+padding-top: 10px;
+margin-left: 8px;
+
+}
+.courses_deatils p{
+    color: blue;
+    margin-bottom: 90px;
+    margin-left: 10px;
+  
+    
+}
+.courses_deatils button{
+    color: white;
+    background-color: blue;
+    width: 160px;
+    height: 30px;
+   margin-left: 580px;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   border: none;
+    
+}
+.courses{
+    display: flex;
+    /* border: 1px solid rgb(95, 82, 82) ; */
+    box-shadow: 2px;
+    /* margin-left: 200px; */
+    text-align: center;
+    justify-content: center;
+    
+}
+.courses_div{
+    display: block;
+    /* background-color: antiquewhite; */
+    box-shadow: 3px 5px rgb(219, 216, 216), 4px 6px white;
+}
+.courses_manage{
+    display: block;
+    /* background-color: antiquewhite; */
+    box-shadow: 3px 5px rgb(219, 216, 216), 4px 6px rgb(53, 51, 51); 
+}
+.courses_2nd{
+    display: flex;
+    /* border: 1px solid rgb(95, 82, 82) ; */
+    box-shadow: 2px;
+    /* margin-left: 200px; */
+    text-align: center;
+    justify-content: start;
+    margin-left: 10px;
+   
+      
+}
+/* <!-- courses section end here --> */
+
+/* <!-- campuses section start here --> */
+#campuses_sec{
+background-color: rgb(219, 216, 216);
+}
+.campuses_side{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 300px;
+    height: 80px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 5px;
+}
+.campus_main{
+    padding-top: 80px;
+}
+
+.campuses_side h2{
+  margin: auto;
+  padding-top: 25px;
+    color: white;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    
+}
+.campus_details{
+    background-color: rgb(146, 141, 141);
+    width: 400px;
+    height: 180px;
+
+}
+.campus_details img{
+width: 40px;
+margin-left: 180px;
+margin-top: 30px;
+}
+.campus_details h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.campus_names{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+/* <!-- campuses section end here --> */
+
+/* <!-- staff section start here --> */
+#staff_sec{
+    background-color:rgb(219, 216, 216) ;
+}
+.meet_staff{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 300px;
+    height: 80px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 5px;
+}
+.our_staff{
+    padding-top: 80px;  
+}
+.meet_staff h2{
+    margin: auto;
+    padding-top: 25px;
+      color: white;
+      width: 300px;
+      height: 60px;
+      text-align: center;
+}
+.staff_side{
+     background-color: blue;
+     width: 400px;
+     height: 300px;
+ text-align: center;
+ padding-top: 70px;
+
+}
+.staff_side img{
+    width: 100px;
+    border-radius: 50%;
+}
+.staff_side h2{
+    color: white;
+}
+.staff_side h3{
+    color: white;
+}
+.staff_details{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+/* <!-- staff section end here --> */
+
+/* <!-- form section start here --> */
+#form_sec{
+    background-color: rgb(109, 105, 103);
+}
+.form_side{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    color: white;
+    border: none;
+}
+.message_inp{
+    /* text-align: center; */
+    margin-left: 191px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+}
+.form_btn input{
+color: white;
+background-color: blue;
+width: 80px;
+height: 30px;
+border: none;
+border-radius: 3px;
+margin-left: 1050px;
+margin-top: 5px;
+
+}
+.form_btn input:hover{
+    color: red;
+    opacity: 0.8;
+
+}
+
+
+
